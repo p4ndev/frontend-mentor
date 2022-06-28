@@ -6,7 +6,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screencast](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -23,6 +23,14 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Select and submit a number rating
 - See the "Thank you" card state after submitting a rating
+
+### Screencast
+
+https://www.loom.com/share/703f4259461e48028f900e94b9ff77e8
+
+### Links
+
+[Netlify](https://legendary-gingersnap-26434b.netlify.app)
 
 ## My process
 
