@@ -1,0 +1,44 @@
+@import ../shared/_variables
+@import ../shared/_mixins
+
+h2
+    font-size: 0.8em
+    opacity: $opacity
+    letter-spacing: 4px
+    @include font-light
+    text-transform: uppercase
+
+h1
+    font-size: 2.4em
+    @include font-bold
+    color: $color_darker      
+    line-height: ($font_size * 2) + 5px
+
+p
+    font-size: 0.9em
+    opacity: $opacity + 0.2
+    line-height: $font_size + 8px
+
+div
+    strong
+        font-size: 2.2em
+        @include font-bold
+        color: lighten($color_primary, 5%)
+    small
+        font-size: 0.8em        
+        opacity: $opacity + 0.2
+        text-decoration: line-through
+
+button
+    border: none    
+    cursor: pointer
+    font-weight: bold
+    @include full-size
+    @include font    
+    color: $color_light
+    @include full-center    
+    border-radius: $border_radius
+    background-color: $color_primary
+
+    &:hover
+        background-color: #1a4031

@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  background-color: #f2ebe3;
+}
+
+main {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background: white url("../../images/image-product-desktop.jpg") 0 0 no-repeat;
+  background-size: contain;
+  border-radius: 8px;
+  min-height: 300px;
+  width: 540px;
+}
+main aside {
+  width: 40%;
+  padding: 30px;
+  min-height: 300px;
+  background-color: white;
+  border-radius: 0px 8px 8px 0px;
+}
+
+h2 {
+  font-size: 0.8em;
+  opacity: 0.4;
+  letter-spacing: 4px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 2.4em;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  color: #1c232b;
+  line-height: 33px;
+}
+
+p {
+  font-size: 0.9em;
+  opacity: 0.6;
+  line-height: 22px;
+}
+
+div strong {
+  font-size: 2.2em;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  color: #459275;
+}
+div small {
+  font-size: 0.8em;
+  opacity: 0.6;
+  text-decoration: line-through;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background-color: #3c8067;
+}
+button:hover {
+  background-color: #1a4031;
+}
+
+main h1 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+main p {
+  margin-bottom: 20px;
+}
+main div {
+  margin-bottom: 20px;
+}
+main div small {
+  padding-left: 10px;
+}
+main button {
+  padding: 10px;
+}
+main button img {
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  main {
+    width: 375px;
+    min-height: 590px;
+    background-image: url("../../images/image-product-mobile.jpg");
+  }
+  main aside {
+    width: 100%;
+    padding: 20px;
+    min-height: 200px;
+    border-radius: 0px 0px 8px 8px;
+  }
+}
