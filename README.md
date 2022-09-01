@@ -7,6 +7,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
@@ -24,24 +25,25 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop](./screenshots/desktop.jpg)
-
 ![Mobile](./screenshots/mobile.jpg)
-
 ![SASS](./screenshots/style.png)
+
+### Links
+
+[Netlify](https://__________.netlify.app)
 
 ## My process
 
 ### Built with
 
-- SASS Variables
-- SASS Folders and Files
-- CSS Entrypoint with SASS
+- SASS Variables, Files and Folders
+- Compiled CSS as entrypoint from SASS
 - Include fonts, style, images on HTML
-- Code simplest HTML5 Markup
+- Simplest HTML5 Markup
 - [SASS](https://sass-lang.com) - SASS
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Github - [P4ndev](https://github.com/p4ndev)
+- LinkedIn - [P4ndev](https://www.linkedin.com/in/p4ndev)
+- FrontendMentor.io - [P4ndev](https://www.frontendmentor.io/profile/p4ndev)
