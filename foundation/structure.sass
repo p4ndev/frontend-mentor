@@ -1,0 +1,28 @@
+@import _variables
+
+main
+    display: flex
+    justify-content: flex-end
+    align-items: flex-end
+    background: url('../images/image-product-desktop.jpg') 0 0 no-repeat
+    background-size: contain
+    border-radius: $border_radius
+    width: 600px
+    min-height: 450px
+
+    aside
+        width: 52%
+        min-height: 450px
+        background-color: $color_light
+        border-radius: 0px $border_radius $border_radius 0px
+
+@media(max-width: 768px)
+    main
+        width: $mobile
+        min-height: 600px
+        background-image: url('../images/image-product-mobile.jpg')
+
+        aside
+            width: 100%
+            min-height: 350px
+            border-radius: 0px 0px $border_radius $border_radius
